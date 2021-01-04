@@ -1,5 +1,5 @@
 body, html {
-    background-color:  #2D2C8A;
+    background-color:  #444444;
 	color:  antiquewhite;
     font-family: sans-serif;
     width: 100%;
@@ -55,7 +55,7 @@ hr {
 
 button {
     border-radius: 5px;
-    background-color: #2D2C8A;
+    background-color: #444444;
     border-style: none;
     padding: 5px 10px;
     font-size: 20px;
