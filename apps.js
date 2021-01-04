@@ -233,3 +233,7 @@ function openSwoop() {
   myWindow.location.href = "https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/R2axJfsc/index.html";
 }
 
+function openDoodle() {
+  myWindow = window.open("", "", "width=422, height=572");
+  myWindow.location.href = "https://funhtml5games.com/doodlejump/index.html";
+}
