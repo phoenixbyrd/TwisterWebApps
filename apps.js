@@ -257,3 +257,8 @@ function openXfinity() {
   myWindow = window.open("", "", "width=1200, height=800");
   myWindow.location.href = "https://www.xfinity.com/stream/listings/tve";
 }
+
+function openPixlr() {
+  myWindow = window.open("", "", "width=1200, height=800");
+  myWindow.location.href = "https://pixlr.com/e/";
+}
