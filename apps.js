@@ -234,6 +234,6 @@ function openSwoop() {
 }
 
 function openDoodle() {
-  myWindow = window.open("", "", "width=422, height=572");
+  myWindow = window.open("", "", "width=450, height=600");
   myWindow.location.href = "https://funhtml5games.com/doodlejump/index.html";
 }
