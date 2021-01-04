@@ -247,3 +247,8 @@ function openWolfram() {
   myWindow = window.open("", "", "width=1024, height=768");
   myWindow.location.href = "https://www.wolframalpha.com/";
 }
+
+function openProton() {
+  myWindow = window.open("", "", "width=1200, height=768");
+  myWindow.location.href = "https://mail.protonmail.com/inbox";
+}
