@@ -212,3 +212,8 @@ function openZoom() {
   myWindow = window.open("", "", "width=600, height=800");
   myWindow.location.href = "https://us04web.zoom.us/";
 }
+
+function openDiscUS() {
+  myWindow = window.open("", "", "width=960, height=540");
+  myWindow.location.href = "http://v6p9d9t4.ssl.hwcdn.net/html/3012712/index.html";
+}
