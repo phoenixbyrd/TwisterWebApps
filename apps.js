@@ -217,3 +217,8 @@ function openDiscUS() {
   myWindow = window.open("", "", "width=980, height=560");
   myWindow.location.href = "http://v6p9d9t4.ssl.hwcdn.net/html/3012712/index.html";
 }
+
+function openScratch() {
+  myWindow = window.open("", "", "width=1500, height=900");
+  myWindow.location.href = "https://scratch.mit.edu/projects/editor/";
+}
