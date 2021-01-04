@@ -242,3 +242,8 @@ function openAlchemy2() {
   myWindow = window.open("", "", "width=1024, height=768");
   myWindow.location.href = "https://littlealchemy2.com/";
 }
+
+function openWolfram() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://www.wolframalpha.com/";
+}
