@@ -252,3 +252,8 @@ function openProton() {
   myWindow = window.open("", "", "width=1200, height=768");
   myWindow.location.href = "https://mail.protonmail.com/inbox";
 }
+
+function openXfinity() {
+  myWindow = window.open("", "", "width=1200, height=800");
+  myWindow.location.href = "https://www.xfinity.com/stream/listings/tve";
+}
