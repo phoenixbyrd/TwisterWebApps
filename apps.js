@@ -222,3 +222,9 @@ function openScratch() {
   myWindow = window.open("", "", "width=1500, height=900");
   myWindow.location.href = "https://scratch.mit.edu/projects/editor/";
 }
+
+function openEarth() {
+  myWindow = window.open("", "", "width=600, height=900");
+  myWindow.location.href = "https://earth.google.com/web/";
+}
+
