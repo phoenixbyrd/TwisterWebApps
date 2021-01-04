@@ -237,3 +237,8 @@ function openDoodle() {
   myWindow = window.open("", "", "width=450, height=600");
   myWindow.location.href = "https://funhtml5games.com/doodlejump/index.html";
 }
+
+function openAlchemy2() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://littlealchemy2.com/";
+}
