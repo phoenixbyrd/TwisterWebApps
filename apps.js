@@ -228,3 +228,8 @@ function openEarth() {
   myWindow.location.href = "https://earth.google.com/web/";
 }
 
+function openSwoop() {
+  myWindow = window.open("", "", "width=1200, height=768");
+  myWindow.location.href = "https://s3-eu-west-1.amazonaws.com/apps.playcanvas.com/R2axJfsc/index.html";
+}
+
