@@ -65,6 +65,10 @@ button {
     cursor: pointer;
 }
 
+img {
+    border-radius: 10px;
+}
+
 footer {
     grid-area: footer;
     position:  relative;
@@ -162,4 +166,5 @@ footer a:hover {
 }
 
 .code {
+    align-content: center;
 }
