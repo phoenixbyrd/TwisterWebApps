@@ -9,6 +9,18 @@
         <title>Twister OS Web Apps Launcher</title>
     </head>
     <body onload="window.resizeTo(1200,768)">
+        <ul class="">
+            <li>
+                <div>
+                    <div class="popup version" id="help">
+                        <p class="title">Twister OS Web Apps Launcher</p><br>
+                        Web Apps are automatically updated.<br><br><br><br>
+                        <p class="close">CLOSE</p>
+                    </div>
+                    <p class="btn" data-popup="help"><a class="help" href="#">?</a></p>
+                </div>
+            </li>
+        </ul>
         <div class="center">
         <ul class="menu">
             <li><a href="games.html">GAMES</a></li>
@@ -20,38 +32,56 @@
         <hr> 
         <br><br>
         <ul>
-            <li><button onclick="openEntanglement()"><img src="./icons/entanglement.png"></button></li>
-            <li><button onclick="openCandyBubble()"><img src="./icons/CandyBubble.jpg"></button></li>
-            <li><button onclick="openDiablo()"><img src="./icons/diablo.png"></button></li>
-            <li><button onclick="openLara()"><img src="./icons/OpenLara.png"></button></li>
-            <li><button onclick="openAmongUS()"><img src="./icons/amongus.png"></button></li>
+            <li><button class="code" onclick="openEntanglement()"><img src="./icons/entanglement.png"><span class="tooltip">Entanglement</span></button></li>
+            <li><button class="code" onclick="openCandyBubble()"><img src="./icons/CandyBubble.jpg"><span class="tooltip">Candy Bubble</span></button></li>
+            <li><button class="code" onclick="openDiablo()"><img src="./icons/diablo.png"><span class="tooltip">Diablo</span></button></li>
+            <li><button class="code" onclick="openLara()"><img src="./icons/OpenLara.png"><span class="tooltip">Open Lara</span></button></li>
+            <li><button class="code" onclick="openAmongUS()"><img src="./icons/amongus.png"><span class="tooltip">Among Us Freeplay</span></button></li>
         </ul>
         <br>
         <ul>
-            <li><button onclick="openBQuest()"><img src="./icons/BrowserQuest.png"></button></li>
-            <li><button onclick="openEmpire()"><img src="./icons/empire.jpeg"></button></li>
-            <li><button onclick="openFallBros()"><img src="./icons/fallbros.png"></button></li>
-            <li><button onclick="openKrunker()"><img src="./icons/krunkerio.png"></button></li>
-            <li><button onclick="openMahjong()"><img src="./icons/Mahjong3d.jpg"></button></li>
+            <li><button class="code" onclick="openBQuest()"><img src="./icons/BrowserQuest.png"><span class="tooltip">Browser Quest</span></button></li>
+            <li><button class="code" onclick="openBejeweled()"><img src="./icons/bejeweled.png"><span class="tooltip">Bejeweled</span></button></li>
+            <li><button class="code" onclick="openFallBros()"><img src="./icons/fallbros.png"><span class="tooltip">Fall Bros</span></button></li>
+            <li><button class="code" onclick="openKrunker()"><img src="./icons/krunkerio.png"><span class="tooltip">Krunker.io</span></button></li>
+            <li><button class="code" onclick="openMahjong()"><img src="./icons/Mahjong3d.jpg"><span class="tooltip">Mahjong 3D</span></button></li>
         </ul>
         <br>
         <ul>
-            <li><button onclick="openMars()"><img src="./icons/MarsTomorrow.png"></button></li>
-            <li><button onclick="openMinecraft()"><img src="./icons/minecraft.png"></button></li>
-            <li><button onclick="openMiniroyale()"><img src="./icons/miniroyale2.png"></button></li>
-            <li><button onclick="openSkribbl()"><img src="./icons/scirbbl.png"></button></li>
-            <li><button onclick="openTreasureArena()"><img src="./icons/treasurearena.png"></button></li>
+            <li><button class="code" onclick="openMars()"><img src="./icons/MarsTomorrow.png"><span class="tooltip">Mars Tomorrow</span></button></li>
+            <li><button class="code" onclick="openMinecraft()"><img src="./icons/minecraft.png"><span class="tooltip">Classic Minecraft</span></button></li>
+            <li><button class="code" onclick="openMiniroyale()"><img src="./icons/miniroyale2.png"><span class="tooltip">Mini Royale 2</span></button></li>
+            <li><button class="code" onclick="openSkribbl()"><img src="./icons/scirbbl.png"><span class="tooltip">Skribbl.io</span></button></li>
+            <li><button class="code" onclick="openTreasureArena()"><img src="./icons/treasurearena.png"><span class="tooltip">Treasure Arena</span></button></li>
         </ul>
         <br>
         <ul>
-            <li><button onclick="openVaporboy()"><img src="./icons/vaporboy.png"></button></li>
-            <li><button onclick="openDiscUS()"><img src="./icons/discus.png"></button></li>
-            <li><button onclick="openSwoop()"><img src="./icons/swoop.jpg"></button></li>
-            <li><button onclick="openDoodle()"><img src="./icons/doodle.png"></button></li>
-            <li><button onclick="openAlchemy2()"><img src="./icons/alchemy2.png"></button></li>
+            <li><button class="code" onclick="openVaporboy()"><img src="./icons/vaporboy.png"><span class="tooltip">Vapor Boy</span></button></li>
+            <li><button class="code" onclick="openDiscUS()"><img src="./icons/discus.png"><span class="tooltip">Disc Us</span></button></li>
+            <li><button class="code" onclick="openSwoop()"><img src="./icons/swoop.jpg"><span class="tooltip">Swoop</span></button></li>
+            <li><button class="code" onclick="openDoodle()"><img src="./icons/doodle.png"><span class="tooltip">Doodle Jump</span></button></li>
+            <li><button class="code" onclick="openAlchemy2()"><img src="./icons/alchemy2.png"><span class="tooltip">Alchemy 2</span></button></li>
         </ul>
         <br>
+        <footer>        
+            <ul>
+                <li><a href="games.html">1</li>
+                <li><a href="games2.html">2</li>
+            </ul>
+        </footer>
         </div>
         <script  type="text/javascript" src="apps.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+                $('.btn').click(function(){
+                $('.popup').hide();
+                $('#' + $(this).attr('data-popup')).show();
+                });
+        </script>
+        <script type="text/javascript">
+            $('.close').click(function(){
+                $('.popup').hide();
+                });
+		</script>
     </body>
 </html>

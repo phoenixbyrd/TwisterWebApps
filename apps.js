@@ -262,3 +262,8 @@ function openPixlr() {
   myWindow = window.open("", "", "width=1200, height=800");
   myWindow.location.href = "https://pixlr.com/e/";
 }
+
+function openBejeweled() {
+  myWindow = window.open("", "", "width=730, height=550");
+  myWindow.location.href = "http://q10games.com/bejeweled-html5/";
+}

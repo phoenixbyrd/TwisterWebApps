@@ -9,6 +9,18 @@
         <title>Twister OS Web Apps Launcher</title>
     </head>
     <body onload="window.resizeTo(1200,768)">
+        <ul>
+            <li>
+                <div>
+                    <div class="popup version" id="help">
+                        <p class="title">Twister OS Web Apps Launcher</p><br>
+                        Web Apps are automatically updated.<br><br><br><br>
+                        <p class="close">close</p>
+                    </div>
+                    <p class="btn" data-popup="help"><a class="help" href="#">?</a></p>
+                </div>
+            </li>
+        </ul>
         <div class="center">
         <ul class="menu">
             <li><a href="games.html">GAMES</a></li>
@@ -20,19 +32,31 @@
         <hr> 
         <br><br>
         <ul>
-            <li><button onclick="openBflix()"><img src="./icons/bflix.png"></button></li>
-            <li><button onclick="openYoutube()"><img src="./icons/youtube.png"></button></li>
-            <li><button onclick="openPluto()"><img src="./icons/PlutoTv.png"></button></li>
-            <li><button onclick="openNetflix()"><img src="./icons/netflix.png"></button></li>
-            <li><button onclick="openHulu()"><img src="./icons/hulu.jpg"></button></li>
+            <li><button class="code" onclick="openBflix()"><img src="./icons/bflix.png"><span class="tooltip">Bflix.to</span></button></li>
+            <li><button class="code" onclick="openYoutube()"><img src="./icons/youtube.png"><span class="tooltip">Youtube</span></button></li>
+            <li><button class="code" onclick="openPluto()"><img src="./icons/PlutoTv.png"><span class="tooltip">Pluto TV</span></button></li>
+            <li><button class="code" onclick="openNetflix()"><img src="./icons/netflix.png"><span class="tooltip">Netflix</span></button></li>
+            <li><button class="code" onclick="openHulu()"><img src="./icons/hulu.jpg"><span class="tooltip">Hulu</span></button></li>
         </ul>
         <br>
         <ul>
-            <li><button onclick="openSpotify()"><img src="./icons/spotify.png"></button></li>
-            <li><button onclick="openAnime()"><img src="./icons/animesuge.jpg"></button></li>
-            <li><button onclick="openXfinity()"><img src="./icons/xfinity.png"></button></li>
+            <li><button class="code" onclick="openSpotify()"><img src="./icons/spotify.png"><span class="tooltip">Spotify</span></button></li>
+            <li><button class="code" onclick="openAnime()"><img src="./icons/animesuge.jpg"><span class="tooltip">Animesuge</span></button></li>
+            <li><button class="code" onclick="openXfinity()"><img src="./icons/xfinity.png"><span class="tooltip">Xfinity Stream TV</span></button></li>
         </ul>
         </div>
         <script  type="text/javascript" src="apps.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script>
+                $('.btn').click(function(){
+                $('.popup').hide();
+                $('#' + $(this).attr('data-popup')).show();
+                });
+        </script>
+        <script type="text/javascript">
+            $('.close').click(function(){
+                $('.popup').hide();
+                });
+		</script>
     </body>
 </html>
