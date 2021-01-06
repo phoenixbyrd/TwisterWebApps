@@ -267,8 +267,3 @@ function openBejeweled() {
   myWindow = window.open("", "", "width=730, height=550");
   myWindow.location.href = "http://q10games.com/bejeweled-html5/";
 }
-
-function openPlayCanvas() {
-  myWindow = window.open("", "", "width=1500, height=900");
-  myWindow.location.href = "https://playcanvas.com/editor";
-}
