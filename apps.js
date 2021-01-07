@@ -278,3 +278,8 @@ function openPetra() {
   myWindow.location.href = "https://www.google.com/maps/about/behind-the-scenes/streetview/treks/petra/#explore-overview";
 }
 
+function openQuake() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "http://www.quakejs.com/";
+}
+
