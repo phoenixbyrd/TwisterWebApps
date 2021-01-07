@@ -307,3 +307,8 @@ function openCutTheRope() {
   myWindow = window.open("", "", "width=1024, height=768");
   myWindow.location.href = "https://play.gamepix.com/cut-the-rope/embed?sid=110638&lang=en&rgx=1&gpxref=direct&utm_source=direct&utm_medium=publisherV3";
 }
+
+function openGodOfLight() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://play.gamepix.com/god-of-light/embed?sid=110901&rgx=1&gpxref=play.gamepix.com&utm_source=play.gamepix.com&utm_medium=publisherV3";
+}
