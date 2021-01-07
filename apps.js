@@ -283,3 +283,7 @@ function openQuake() {
   myWindow.location.href = "http://www.quakejs.com/";
 }
 
+function openLoadrunner() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "http://loderunnerwebgame.com/game/";
+}
