@@ -297,3 +297,13 @@ function openSolitaire() {
   myWindow = window.open("", "", "width=1200, height=768");
   myWindow.location.href = "https://worldofsolitaire.com/";
 }
+
+function openCrossyRoad() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://games.poki.com/458768/crossyroad?tag=pg-v3.9.6&world=dinosaur&site_id=3&categories=4,9,64,96,103,903,929,951,1118,1084,1103,1126,1135,1137,1141&country=US";
+}
+
+function openCutTheRope() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://play.gamepix.com/cut-the-rope/embed?sid=110638&lang=en&rgx=1&gpxref=direct&utm_source=direct&utm_medium=publisherV3";
+}
