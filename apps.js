@@ -267,3 +267,14 @@ function openBejeweled() {
   myWindow = window.open("", "", "width=730, height=550");
   myWindow.location.href = "http://q10games.com/bejeweled-html5/";
 }
+
+function openHubs() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://hubs.mozilla.com/AP94aru/pretty-violet-huddle/";
+}
+
+function openPetra() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://www.google.com/maps/about/behind-the-scenes/streetview/treks/petra/#explore-overview";
+}
+
