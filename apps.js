@@ -298,9 +298,9 @@ function openSolitaire() {
   myWindow.location.href = "https://worldofsolitaire.com/";
 }
 
-function openCrossyRoad() {
+function openBadland() {
   myWindow = window.open("", "", "width=1024, height=768");
-  myWindow.location.href = "https://games.poki.com/458768/crossyroad?tag=pg-v3.9.6&world=dinosaur&site_id=3&categories=4,9,64,96,103,903,929,951,1118,1084,1103,1126,1135,1137,1141&country=US";
+  myWindow.location.href = "https://play.gamepix.com/badland/embed?sid=110901&rgx=1&gpxref=play.gamepix.com&utm_source=play.gamepix.com&utm_medium=publisherV3";
 }
 
 function openCutTheRope() {
