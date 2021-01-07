@@ -292,3 +292,8 @@ function openNymble() {
   myWindow = window.open("", "", "width=480, height=852");
   myWindow.location.href = "http://v6p9d9t4.ssl.hwcdn.net/html/3110712/index.html";
 }
+
+function openSolitaire() {
+  myWindow = window.open("", "", "width=1200, height=768");
+  myWindow.location.href = "https://worldofsolitaire.com/";
+}
