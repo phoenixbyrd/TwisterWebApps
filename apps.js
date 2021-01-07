@@ -287,3 +287,8 @@ function openLoadrunner() {
   myWindow = window.open("", "", "width=1024, height=768");
   myWindow.location.href = "http://loderunnerwebgame.com/game/";
 }
+
+function openNymble() {
+  myWindow = window.open("", "", "width=480, height=852");
+  myWindow.location.href = "http://v6p9d9t4.ssl.hwcdn.net/html/3110712/index.html";
+}
