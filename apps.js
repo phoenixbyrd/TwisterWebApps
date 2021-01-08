@@ -312,3 +312,8 @@ function openGodOfLight() {
   myWindow = window.open("", "", "width=1024, height=768");
   myWindow.location.href = "https://play.gamepix.com/god-of-light/embed?sid=110901&rgx=1&gpxref=play.gamepix.com&utm_source=play.gamepix.com&utm_medium=publisherV3";
 }
+
+function openFreddy() {
+  myWindow = window.open("", "", "width=1024, height=768");
+  myWindow.location.href = "https://gamasexual.com/c/f/g/five-nights-at-freddys/";
+}
